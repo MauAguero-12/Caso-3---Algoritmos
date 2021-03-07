@@ -5,11 +5,11 @@ using namespace std::chrono;
 
 bool findNumber(int pNumber, int pArray[], int pArraySize);
 void generateArray(int pArray[], int pSize);
-
+static int array[10000000];
 int main(){
+    cout << "empieza" << endl;
     //se genera un array del tamaño indicado con valores aleatorios entre 1 y 100
-    int size = 100;
-    int array[size];
+    int size = 10000000;
     generateArray(array, size);
 
     //se toma el tiempo de inicio

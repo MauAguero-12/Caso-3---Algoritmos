@@ -8,7 +8,7 @@ import (
 
 func main(){
 	//se genera un array del tamaño indicado con valores aleatorios entre 1 y 100
-	size := 100
+	size := 10000000
 	array := []int{}
 	array = generateArray(array, size)
 	
